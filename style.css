@@ -1,41 +1,107 @@
-/*este es un comentario*/
-body{
-    background-color: rgb(219, 208, 193);
-    font-size: 21px;
-    color: rgb(63, 63, 63);
+*{
+    padding: 0;
+    margin: 0;
     font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+
+body{
+    background-image: url(imagen/EL3916__31717.1432050040.1280.1280.jpg)
+}
+
+header{
+    padding: 50px;
+    background-color: rgba(179, 171, 150, 0.445);
+    border-bottom: 2px  solid black
+    
+}
+
+header{
     text-align: center;
-
+    
 }
 
-h1{
-    color: rgb(27, 27, 27);
+nav ul{
+    list-style: none;
 }
 
-/*selector de tipo ID*/
-#Experiencia-laboral{
-    color: chocolate;
-}
-
-/*selector de tipo clase*/
-.estilo-seccion{
-    background-color: burlywood;
+nav ul li{
+    display: inline-block;
+    margin-right: 80px;
     text-align: center;
-    border-radius: 30px;
 }
 
-.casa-lh102{
-    background-color: burlywood;
+main{
+    margin-top: 30px;
+}
+
+.Proyectos{
+    padding: 40px;
     text-align: center;
-    border-radius: 30 px;
+    margin: 20px;
+    border-bottom: 2px solid gray;
 }
-/*selector avanzado*/
-.estilo-seccion ul li{
+
+.About{
+    padding: 60px;
+    margin: 20px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+
+.casas{
+    border: 2px solid gray;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.casas ul li{
+    list-style: none;
+}
+
+.casas img{
+    width: 950px;
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 25px;
+}
+
+.Galeria-renders{
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid gray;
+    background-color: rgba(179, 171, 150, 0.445);
+}
+
+.galeria img{
+    width: 950px;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 25px;
+}
+
+.galeria{
+    text-align: center;
+    border-bottom: 2px solid gray;
 
 }
 
-img{
-    width: ;
-    height: 520px;
+.Habilidades{
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid gray;
 }
 
+footer{
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+}

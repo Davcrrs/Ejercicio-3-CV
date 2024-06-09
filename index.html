@@ -1,98 +1,165 @@
-<!DOCTYPE html>       <!-- ! esta es la plantilla para pag web-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">     <!--formato de codificacion de caracteres--> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!--enlanzado con CSS-->
-    <title>DavidCarreras</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--enlace de google fonts-->
+    <title>David Carreras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Macondo&family=Poiret+One&family=Shadows+Into+Light&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!--este es un comentario --> 
-    
     <header> 
-        <h1>PLIEGUE3D</h1>      <!--texto principal-->
-        <img  class="imagen-profile"src="/imagen/LogoPliegue.jpg" alt="imagen del logo">  <!--imagen desde computadora-->
-        <nav>      <!--barra de navegación-->
-            <h2>About us:</h2>
-            <p class="profile-description"> <strong>Perfil:</strong> We have 7+ years of experience working on 'high end' projects in CDMX and Cabo.
-                Our work includes collaborative residential projects located in the most
-                exclusive developments in Cabo such as Maravilla, Querencia, Palmilla, Chileno
-                Bay and Laguna Hills.</p>
 
-            <ul>      <!--listas por orden o U L listas sin orden-->
+    <h1>PLIEGUE3D</h1>
+    <h3>David Carreras</h3>
+    <nav>
+        <ul>
+            <li><h3><a href="#About us">About us</a></h3></li>
+            <li><h3><a href="#Proyectos">Proyectos</a></h3></li>
+            <li><h3><a href="#Habilidades">Habilidades</a></h3></li>
+            <li><h3><a href="#Galeria">Galeria </a></h3></li>
+            <li><h3><a href="#Contacto">Contacto</a></h3></li>
+        </ul>
+    </nav>
 
-                <li><a href="#Exp laboral">Experiencia laboral</a></li> <!--#para enlazar, importante mayusculas y minusculas-->
-                <li><a href="#proyectos">Proyectos</a></li>
-
-            </ul>
-        </nav>
     </header>
 
+<main>
 
-    <section>
-        <p> breve descripcion </p>
+    <section id="About us">
+        <div class="About">
+        <h1>About us</h1>
+            <p><strong>We have 7+ years of experience working on 'high end' projects in CDMX and Cabo.
+                Our work includes collaborative residential projects located in the most
+                exclusive developments in Cabo such as Maravilla, Querencia, Palmilla, Chileno
+                Bay and Laguna Hills.</strong></p>
+        </div>
     </section>
 
 
-    <section>
-        <p><strong>David Carreras</strong> La Paz <em> Arquitecto </em>
+    <section id="Proyectos">
 
-        </p>
-    </section><!--palabra * numero para listar mas-->
-
-
-    <section id="Experiencia-laboral"> <!--id para enlaces dentro de la pag, # para enlazar interno-->
-        <h2>Experiencia laboral</h2>
-    </section>
-
-    <section id="proyectos" class="estilo-seccion">
-        <h2>Residential QL37</h2>
+        <div class="Proyectos">
+            <h1>Proyectos</h1>
+        </div>
+        
+        <div class="casas">
+            <h2>Caleta 72</h2>
+            <p>residencial ubicada en Palmilla, Los Cabos con vista al mar y acceso a playa Palmilla. </p>
             <ul>
-                <li>kitchen</li>
-                <li>living</li>
-                <li>master bedroom</li>
-                <li>bedroom</li>
-                <li>garage</li>
+
+                <li>Cochera para 2 autos y golfcar</li>
+                <li>gran salon con fire pit</li>
+                <li>cocina y precocina</li>
+                <li>2 recamaras master</li>
+                <li>2 recamaras junior</li>
+                <li>Alberca, BBQ & firepit exterior</li>
+
+                <img src="imagen/Caleta72_GranSalon01.jpg" alt="gran salon">
+                <img src="imagen/Caleta72_Recamara03.jpg" alt="recamara 03">
+                <img src="imagen/Caleta72_TerrazaGeneral01.jpg" alt="terraza general">
+                <img src="imagen/Caleta72_Firepit01.jpg" alt="firepit">
             </ul>
-            <img src="/imagen/render 1.jpg" alt="Render ql37">
-        <h3>location: SJD Mx</h3>
+        </div>
+
+
+        <div class="casas">
+            <h2>Montaña 26</h2>
+            <p>residencial ubicada en Querencia, Los Cabos con vista al mar, amenidades como campos de golf, club de playa y canchas deportivas. </p>
+            <ul>
+
+                <li>Cochera para 3 autos y golfcar</li>
+                <li>gran salon con fire pit</li>
+                <li>salon de juegos</li>
+                <li>cocina y precocina</li>
+                <li>2 recamaras master</li>
+                <li>2 recamaras junior</li>
+                <li>Alberca, BBQ & firepit exterior</li>
+
+                <img src="imagen/Gameroom_Final01.jpg" alt="gameroom">
+                <img src="imagen/Living_Final01.jpg" alt="living">
+                <img src="imagen/Master_Final01.jpg" alt="master">
+                <img src="imagen/terrace_Final01.jpg" alt="terrace">
+                <img src="imagen/Bathroom_Final01.jpg" alt="bathroom">
+            </ul>
+        </div>
+
+
+        <div class="casas">
+            <h2>Oasis 22</h2>
+            <p>residencial ubicada en Palmilla, Los Cabos con vista al mar, amenidades como campos de golf, club de playa y canchas deportivas. </p>
+            <ul>
+
+                <li>Cochera para 2 autos y golfcar</li>
+                <li>gran salon con fire pit</li>
+                <li>cocina y precocina</li>
+                <li>2 recamaras master</li>
+                <li>2 recamaras junior</li>
+                <li>Alberca, BBQ & firepit exterior</li>
+            </ul>
+
+            <img src="imagen/O22 v02.jpg" alt="">
+            <img src="imagen/O22 v05.jpg" alt="">
+            <img src="imagen/O22 v06.jpg" alt="">
+            <img src="imagen/O22 v08.jpg" alt="">
+            <img src="imagen/O22 v10.jpg" alt="">
+        </div>
+
+
+
+    </section>   
+
+
+    <section id="Galeria">
+    <div class="Galeria-renders">
+        <h1>Galeria</h1>
+    </div>
+
+        <div class="galeria">
+            <img src="galeria/EL LAGO 1.jpg" alt="LAGO">
+            <img src="galeria/Living QLO37.jpg" alt="living">
+            <img src="galeria/LOS ANDADORES 1.jpg" alt="andadores">
+            <img src="galeria/Mont.AerialView01a.jpg" alt="vistaarea">
+            <img src="galeria/Mont.TerrView01.jpg" alt="terr">
+            <img src="galeria/vista general 1.jpg" alt="general">
+        </div>
+
     </section>
 
 
-    <section Id="casalh102" class="casa-lh102">
-        <h2>Residential LH102</h2>
-        <ul>
-            <li>kitchen</li>
-            <li>living</li>
-            <li>master bedroom</li>
-            <li>bedroom</li>
-            <li>garage</li>
-        </ul>
-            <img src="/imagen/Scene 4_1.jpg" alt="render LH102">
-        <h3>location: SJD Mx</h3>
+    <section id="Habilidades">
+        <div class="Habilidades">
+            <h1>Habilidades</h1>
+
+            <ul>
+                <li>Autocad</li>
+                <li>Revit</li>
+                <li>3DMax</li>
+                <li>Sketchup</li>
+                <li>Photoshop</li>
+            </ul>
+        </div>
     </section>
 
 
-    <section></section>
-    <section></section>
+</main>
 
-    <!--pie de pagina-->
-    <footer>
-            <p><strong>contacto</strong></p>
+<footer>
+    <section id="Contacto">
+        <h2>Contacto</h2>
 
-            <!--link de enlace externo-->>
-            
-            <a href="https://www.instagram.com/pliegue3d/"
+        <a href="https://www.instagram.com/pliegue3d/"
             target="_blank">instagram/pliegue3D</a>
-            <!--target="_blank" para que el link abra en otra pag-->
 
-            <br> <!--espacio entre links-->
+        <h2>tel: 612 14999999</h2>
+        <h2>Email: Arq.dergte@gmail.com</h2>
 
-            <a href="link de la pag">aqui deberia haber un link</a>
+    </section>
+</footer>
 
-    </footer>
+
 </body>
 </html>
